@@ -17,16 +17,16 @@ jobs:
         run: |
           mkdir -p /workspace/artifacts
           make
-          cp hello-world.nds /workspace/artifacts/hello-world.nds
+          cp hello-world-nds.nds /workspace/artifacts/hello-world-nds.nds
 
       - name: Upload Artifacts to Workspace
         run: |
-          mv /workspace/artifacts/hello-world.nds $GITHUB_WORKSPACE/hello-world.nds
+          mv /workspace/artifacts/hello-world-nds.nds $GITHUB_WORKSPACE/hello-world-nds.nds
 
       - name: Create GitHub Release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: hello-world.nds
+          artifacts: hello-world-nds.nds
           tag: v1.0
           name: "Release v1.0"
           body: "Automated release of version v1.0"
