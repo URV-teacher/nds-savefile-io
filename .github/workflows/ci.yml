@@ -43,4 +43,4 @@ jobs:
           body: "Automated release of version v1.0"
           allowUpdates: true
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
