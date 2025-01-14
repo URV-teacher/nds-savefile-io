@@ -14,3 +14,13 @@ jobs:
       - name: Build
         run: |
           make
+      - name: Create GitHub Release
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: hello-world.nds
+          tag: v1.0
+          name: "Release v1.0"
+          body: "Automated release of version v1.0"
+          allowUpdates: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
