@@ -90,7 +90,7 @@ export LD	:=	$(CC)
 export GAME_TITLE	:=	CANDYNDS
 export GAME_SUBTITLE1	:=	Practica de Computadores
 export GAME_SUBTITLE2	:=	Grado de Ingenieria Informatica (URV)
-export GAME_ICON	:= 	$(DEVKITPRO)/libnds/icon.bmp
+export GAME_ICON	:= 	data/icon.bmp
 
  
 .PHONY: $(BUILD) clean
