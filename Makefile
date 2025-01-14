@@ -10,9 +10,9 @@ ifeq ($(strip $(DEVKITPRO)),)
 $(error "Please set DEVKITPRO in your environment. export DEVKITPRO=<path to>devkitPRO")
 endif
 
-ifeq ($(strip $(DESMUME)),)
-$(error "Please set DESMUME in your environment. export DESMUME=<path to>DeSmuME")
-endif
+#ifeq ($(strip $(DESMUME)),)
+#$(error "Please set DESMUME in your environment. export DESMUME=<path to>DeSmuME")
+#endif
 
 include $(DEVKITARM)/ds_rules
 
