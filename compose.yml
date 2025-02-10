@@ -1,0 +1,10 @@
+
+services:
+  hello-world-nds:
+    build: .
+    volumes:
+      - ./bin:/bin
+    working_dir: /project
+    container_name: hello-world-nds
+    stdin_open: true
+    tty: true
