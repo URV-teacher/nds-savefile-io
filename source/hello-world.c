@@ -2,17 +2,18 @@
 #include <stdio.h>
 #include "hello-world.h"
 
-int main(void)
+int main(int argc, char* argv[])
 {
 	consoleDemoInit();
 	printf("Hello World\n");
 
-	do
-	{
-		swiWaitForVBlank();
-		
-	} while (1);
-	
-	return(0);
+    while(pmMainLoop()) {
+        swiWaitForVBlank();
+        scanKeys();
+        int pressed = keysDown();
+        if(pressed & KEY_START) break;
+    }
+
+    return 0;
 }
 
