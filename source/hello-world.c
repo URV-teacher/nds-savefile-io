@@ -7,7 +7,7 @@ int main(int argc, char* argv[])
 	consoleDemoInit();
 	printf("Hello World\n");
 
-    while(pmMainLoop()) {
+    while(1) {
         swiWaitForVBlank();
         scanKeys();
         int pressed = keysDown();
