@@ -1,10 +1,7 @@
-
 services:
-  hello-world-nds:
-    build: .
-    volumes:
-      - ./bin:/bin
-    working_dir: /project
+  compiler:
+    image: aleixmt/bmde-linux:latest
     container_name: hello-world-nds
-    stdin_open: true
-    tty: true
+    volumes:
+      - ./output:/output  # Mount output directory
+    restart: "no"

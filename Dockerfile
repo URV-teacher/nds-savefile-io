@@ -1,15 +1,9 @@
-FROM hello-world-nds-dependencies
+FROM aleixmt/bmde-linux:latest
 
-RUN mkdir -p /project /build
+COPY . /workspace/
 
-COPY . /project
+WORKDIR /workspace/hello-world-nds
 
-WORKDIR /project
+RUN make clean && make && make run
 
-RUN make
-
-COPY /project/project.nds /bin
-
-ENTRYPOINT ["dumb-init", "--"]
-
-CMD ["/bin/bash"]
+CMD ["cp", "hello-world-nds.nds", "/output/"]
