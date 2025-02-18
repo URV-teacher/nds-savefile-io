@@ -32,6 +32,7 @@
     <a href="https://github.com/URV-teacher/hello-world-nds/issues/new">Report Bug</a>
     ·
     <a href="https://github.com/URV-teacher/hello-world-nds/issues/new">Request Feature</a>
+    ·
   </p>
 </div>
 
