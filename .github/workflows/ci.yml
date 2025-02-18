@@ -7,7 +7,7 @@ jobs:
     name: Build NDS
     runs-on: ubuntu-latest
     container:
-      image: devkitpro/devkitarm:latest
+      image: aleixmt/bmde-linux:latest
 
     steps:
       - name: Checkout Code
