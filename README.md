@@ -49,23 +49,6 @@
     </li>
     <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#usage">Usage</a></li>
-      <ul>
-        <li><a href="#How-to-add-a-new-signature">How to add a new signature</a></li>
-        <li><a href="#How-to-update-a-signature">How to update a signature</a></li>
-        <li><a href="#How-to-update-all-signatures">How to update all signatures</a></li>
-      </ul>
-    <li><a href="#Components">Components</a></li>
-      <ul>
-        <li><a href="#Bulk-update-of-secrets">Bulk update of secrets</a></li>
-        <li><a href="#Secrets">Secrets</a></li>
-        <li><a href="#How-to-update-all-signatures">How to update all signatures</a></li>
-        <li><a href="#Data-files">Data files</a></li>
-        <li><a href="#Template">Template</a></li>
-        <li><a href="#Template-render">Template render</a></li>
-        <li><a href="#Template-output">Template output</a></li>
-        <li><a href="#Email-sending">Email sending</a></li>
-        <li><a href="#Workflow">Workflow</a></li>
-      </ul>
     <li><a href="#Roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -294,7 +277,7 @@ areas of knowledge of Computer Science, Telematics and Mathematics.
 
 
 #### People involved in the hello-world-nds development
-* **Aleix Mariné-Tena (ASBTEC)**: Informatics responsible of ASBTEC. Main developer of *hello-world-nds*.
+* **Aleix Mariné-Tena (URV)**: Substitute teacher of subject Computers and Fundamentals of Computers at URV.
 
 
 
@@ -306,8 +289,8 @@ areas of knowledge of Computer Science, Telematics and Mathematics.
 [license-url]: https://github.com/URV-teacher/hello-world-nds/blob/master/LICENSE
 [product-screenshot]: .github/images/product-screenshot.png
 
-[language-shield]: https://img.shields.io/github/languages/top/URV-teacher/hello-world-nds?style=flat-square&color=yellow&logo=gnubash
-[language-url]: https://www.gnu.org/software/bash/
+[language-shield]: https://img.shields.io/github/languages/top/URV-teacher/hello-world-nds?style=flat-square&color=yellow&logo=makefile
+[language-url]: https://www.gnu.org/software/make/manual/make.html
 [loc-shield]: https://img.shields.io/endpoint?url=https://ghloc.vercel.app/api/URV-teacher/hello-world-nds/badge?filter=.html$,.sh$,.js$&style=flat&logoColor=white&label=Lines%20of%20Code
 [loc-url]: https://github.com/URV-teacher/hello-world-nds
 [commit-shield]: https://img.shields.io/github/last-commit/URV-teacher/hello-world-nds/master?style=flat-square&logo=github
@@ -318,8 +301,8 @@ areas of knowledge of Computer Science, Telematics and Mathematics.
 [repo-size-url]: https://github.com/URV-teacher/hello-world-nds
 [language-count-shield]: https://img.shields.io/github/languages/count/URV-teacher/hello-world-nds?style=flat-square&color=red&logo=github
 [language-count-url]: https://github.com/URV-teacher/hello-world-nds
-[CD-pipeline-shield]: https://img.shields.io/github/actions/workflow/status/URV-teacher/hello-world-nds/buildAndSendSignatures.yml?style=flat-square&logo=githubactions&label=last%20workflow%20execution
-[CD-pipeline-url]: https://github.com/URV-teacher/hello-world-nds/actions/workflows/buildAndSendSignatures.yml
+[CD-pipeline-shield]: https://img.shields.io/github/actions/workflow/status/URV-teacher/hello-world-nds/ci.yml?style=flat-square&logo=githubactions&label=last%20workflow%20execution
+[CD-pipeline-url]: https://github.com/URV-teacher/hello-world-nds/actions/workflows/ci.yml
 
 [git-shield]: https://img.shields.io/badge/git-2.25.1-brown?style=for-the-badge&logo=git
 [git-url]: https://git.com
@@ -339,7 +322,7 @@ areas of knowledge of Computer Science, Telematics and Mathematics.
 [libnds-url]: https://libnds.devkitpro.org/
 [desmume-shield]: https://img.shields.io/badge/DeSmuME-0.9.11.dev-blue?style=for-the-badge&logo=DeSmuME
 [desmume-url]: https://desmume.org/
-[flatpak-shield]: https://img.shields.io/badge/Flatpak--lightblue?style=for-the-badge&logo=flatpak
+[flatpak-shield]: https://img.shields.io/badge/Flatpak-1.16-lightblue?style=for-the-badge&logo=flatpak
 [flatpak-url]: https://flatpak.org/
 [docker-shield]: https://img.shields.io/badge/Docker-latest-brown?style=for-the-badge&logo=docker
 [docker-url]: https://www.docker.com/
