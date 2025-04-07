@@ -1,7 +1,6 @@
 services:
-  compiler:
+  nds-savefile-io:
     image: aleixmt/bmde-linux:latest
-    container_name: hello-world-nds
+    build: .
     volumes:
-      - ./output:/output  # Mount output directory
-    restart: "no"
+      - ./:/input/
