@@ -1,5 +1,12 @@
 <a name="readme-top"></a>
 
+> [!IMPORTANT]  
+> This repo was an experiment to check if data could be interchanged between DeSmuME and the host using its filesystem via savefiles.
+> As far as I can remember, the project was not successful with this strategy. The code is not functional. 
+> Even though, we tried another strategy: Instead of using savefiles, using a FAT mounted into DeSmuME. This was a success.
+> You can find the code that implements the interchange of data between DeSmuME and host using a FAT image in [this](https://github.com/URV-teacher/filesystem-nds) repo.
+> This repo will be archived.
+> 
 <!-- PROJECT SHIELDS -->
 [![Top language][language-shield]][language-url]
 [![Language count][language-count-shield]][language-count-url]
